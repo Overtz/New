@@ -52,7 +52,7 @@ module.exports = class extends Client {
 
     async connectToDatabase() {
         
-        await connect('mongodb+srv://Adming:tN9pOyAIPdPdUmds@flamingdb.34nzb.mongodb.net/test')
+        await connect()
         console.log('Database conectada com sucesso!')
     }
 }
